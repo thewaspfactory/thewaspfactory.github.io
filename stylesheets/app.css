@@ -2128,12 +2128,26 @@ input {
 }
 .app .header {
   width: 1000px;
-  height: 124px;
+  height: 184px;
   background: url("../images/the-wasp-factory.png") no-repeat;
   -webkit-background-size: 1000px 84px;
   -moz-background-size: 1000px 84px;
   background-size: 1000px 84px;
-  background-position: bottom left;
+  background-position: center 40px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+}
+.app .header a {
+  font-size: 24px;
+  font-style: italic;
+  color: #50e2a3;
+  text-decoration: none;
+  padding: 6px;
+  margin: 10px;
+}
+.app .header a:hover {
+  border-bottom: 1px solid #fff;
 }
 .app .content {
   width: 600px;
@@ -2144,7 +2158,7 @@ input {
 .app .content h5 {
   color: #fff;
   font-weight: normal;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 .app .content hr {
   margin: 40px 0px;
